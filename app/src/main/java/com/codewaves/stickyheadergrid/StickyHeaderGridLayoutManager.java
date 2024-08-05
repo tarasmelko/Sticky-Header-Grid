@@ -1,22 +1,23 @@
 package com.codewaves.stickyheadergrid;
 
+import static androidx.recyclerview.widget.RecyclerView.NO_POSITION;
+import static com.codewaves.stickyheadergrid.StickyHeaderGridAdapter.TYPE_HEADER;
+import static com.codewaves.stickyheadergrid.StickyHeaderGridAdapter.TYPE_ITEM;
+
 import android.content.Context;
 import android.graphics.PointF;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.v7.widget.LinearSmoothScroller;
-import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.recyclerview.widget.LinearSmoothScroller;
+import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.ArrayList;
 import java.util.Arrays;
-
-import static android.support.v7.widget.RecyclerView.NO_POSITION;
-import static com.codewaves.stickyheadergrid.StickyHeaderGridAdapter.TYPE_HEADER;
-import static com.codewaves.stickyheadergrid.StickyHeaderGridAdapter.TYPE_ITEM;
 
 /**
  * Created by Sergej Kravcenko on 4/24/2017.
